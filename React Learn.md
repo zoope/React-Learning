@@ -6,7 +6,7 @@
   ```jsx
   function Welcome(props) { 
     return <h1>Hello, {props.name}</h1>;  
-  }
+  };
   ```
   - `class component`  
   The simplest way to define a component is to write a JavaScript function(pure function).  
@@ -16,7 +16,7 @@
     render() {
       return <h1>Hello, {this.props.name}</h1>;
     }
-  }
+  };
   ```
   - `comparing 'pure function' with 'class component'`  
   The above two components are `equivalent` from React's point of view. Classes have some additional features that we call it 'state'.  
@@ -75,7 +75,7 @@
         {props.text}
       </div>
     </div>
-  }
+  };
   ```  
   After the Extracting:
   ```jsx  
@@ -93,7 +93,7 @@
     return <div class='img'>
       <img src={user.url} alt={user.name}/>
     </div>
-  }
+  };
   ```
 
 + Props  
