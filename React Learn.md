@@ -1,5 +1,5 @@
 ## **React Learning**
->[facebook/react](https://facebook.github.io/react/)
+>[facebook/react](https://facebook.github.io/react/)  
 + Component  
   - `pure function`  
   Such functions are called "pure" because they do not attempt to change their inputs(props), and always return the same result for the same inputs.
@@ -38,7 +38,7 @@
   ```
   >**Caveat:**  
   >Always start component names with a `capital letter`.  
-  >>For example, `<div />` represents a DOM tag, but `<Welcome />` represents a component and requires `Welcome` to be in scope.
+  >>For example, `<div />` represents a DOM tag, but `<Welcome />` represents a component and requires `Welcome` to be in scope.  
   - `Composing components`  
   Components can refer to other components in their output. This lets us use the same component abstraction for any level of detail.For example:
   ```jsx
