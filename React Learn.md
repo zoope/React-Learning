@@ -109,4 +109,3 @@
     name: React.PropTypes.string
   };  
   ```
-  
