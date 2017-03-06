@@ -94,6 +94,20 @@
       <img src={user.url} alt={user.name}/>
     </div>
   };
+  ```  
++ Typechecking With PropTypes  
+  React has some built-in typechecking abilities. To run typechecking on the props for a component, you can assign the special `propTypes` property:  
+  ```jsx
+  class Greeting extends React.Component {
+    render() {
+      return (
+        <h1>Hello, {this.props.name}</h1>
+      );
+    }
+  };
+  Greeting.propTypes = {
+    name: React.PropTypes.string
+  };  
   ```
+  
 
-+ Props  
