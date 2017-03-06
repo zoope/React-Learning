@@ -95,8 +95,8 @@
     </div>
   };
   ```  
-+ Typechecking With PropTypes  
-  React has some built-in typechecking abilities. To run typechecking on the props for a component, you can assign the special `propTypes` property:  
++ PropTypes  
+  React has some built-in typechecking abilities. To run typechecking on the props for a component, you can assign the special `propTypes` property:
   ```jsx
   class Greeting extends React.Component {
     render() {
@@ -107,5 +107,6 @@
   };
   Greeting.propTypes = {
     name: React.PropTypes.string
-  };  
+  };
   ```
+  This is the porptypes. 
